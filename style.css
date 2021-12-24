@@ -1,0 +1,176 @@
+body{
+    margin: 0%;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(254, 255, 178);
+}
+#bodybox{
+    height: 1000px;
+}
+@media (max-width:905px){
+    #bodybox{
+        height:2000px;
+    }
+}
+@media (max-width:410px){
+    #bodybox{
+        height:2000px;
+        overflow: scroll;
+    }
+}
+@media (min-width:1808px){
+    #bodybox{
+        height:490px;
+    }
+}
+
+/* div{
+    border: 1px solid black;
+    background-color: rgb(255, 249, 242);
+    
+} */
+#searchicon{
+    /* display: inline; */
+    position: absolute;
+    right: 1px;
+}
+#searchbox{
+    /* display: inline; */
+    position: absolute;
+    right: 3px;
+}
+#sbox{
+    border-radius: 100px;
+}
+#locationbar{
+    margin-left: 5rem;
+    display: flex;
+}
+@media (max-width:452px){
+    #locationbar{
+   
+        margin-left: 0rem;
+        display: flex;
+    }
+}
+.header{
+    display: flex;
+    padding: 6px;
+    background-image: linear-gradient(to bottom,rgb(255, 79, 79),black);
+    position: sticky;
+    top: 0px;
+}
+#bodybox{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/large.png);
+    z-index: -1;
+}
+.boxes{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 100rem;
+    padding: 9rem;
+}
+
+#box1{
+    background-image: url(/introduction.jpg);
+    border: 2px solid rgb(254, 255, 178);
+    text-decoration: none;
+}
+#box2{
+    background-image: url(/credentials.jpg);
+    border: 2px solid rgb(254, 255, 178);
+}
+#box3{
+    background-image: url(/about.jpg);
+    border: 2px solid rgb(254, 255, 178);
+}
+#box4{
+    background-image: url(/blackhole.jpg);
+    border: 2px solid rgb(254, 255, 178);
+}
+h2,h3{
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.boxa{
+    text-decoration: none;
+    color: white;
+}
+.boxa:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+#heading{
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.5),rgba(0, 0, 255, 0.5));
+    border-radius: 100px;
+    border: 1px solid white;
+}
+#heading:hover{
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.5),rgba(21, 255, 0, 0.5));
+    border-radius: 100px;
+    color: black;
+    border: 1px solid rgb(0, 255, 242);
+}
+#home{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-left: 4px;
+}
+.home{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-left: 4px;
+}
+#introduction{
+    margin-left: 10px;
+}
+#home:hover{
+    background-image: linear-gradient(to bottom,red,orange);
+    color: black;
+    border-radius: 9px;
+    border: 1px solid white;
+    padding: 1px;
+}
+.home:hover{
+    background-image: linear-gradient(to bottom,red,orange);
+    color: black;
+    border-radius: 9px;
+    border: 1px solid white;
+    padding: 1px;
+}
+/* from here we go vimukh from the index page's content  */
+
+#infobox{
+    width: 40%;
+    height: auto;
+    border: 2px solid white;
+    margin-bottom: 20%;
+    margin-top: 2%;
+    /* align-items: center center; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: rgba(216, 191, 216, 0.5);
+    padding: 2px;
+}
+.intro{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
