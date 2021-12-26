@@ -62,7 +62,7 @@ body{
 #bodybox{
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/large.png);
+    background-image: url(large.png);
     z-index: -1;
 }
 .boxes{
@@ -74,20 +74,20 @@ body{
 }
 
 #box1{
-    background-image: url(/introduction.jpg);
+    background-image: url(introduction.jpg);
     border: 2px solid rgb(254, 255, 178);
     text-decoration: none;
 }
 #box2{
-    background-image: url(/credentials.jpg);
+    background-image: url(credentials.jpg);
     border: 2px solid rgb(254, 255, 178);
 }
 #box3{
-    background-image: url(/about.jpg);
+    background-image: url(about.jpg);
     border: 2px solid rgb(254, 255, 178);
 }
 #box4{
-    background-image: url(/blackhole.jpg);
+    background-image: url(blackhole.jpg);
     border: 2px solid rgb(254, 255, 178);
 }
 h2,h3{
